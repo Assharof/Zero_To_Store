@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-export function ProductCard({ product }) {
+
+function ProductCard({ product }) {
   return (
     <div className="product-card" key={product.id}>
       <img
@@ -21,3 +22,5 @@ export function ProductCard({ product }) {
     </div>
   );
 }
+
+export default ProductCard;
